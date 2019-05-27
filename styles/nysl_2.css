@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+}
+
+/*make images invisible*/
+.main_image,.design1 {
+ display:none;	
+}
+
+/*h1 and image*/
+header {
+  height: 150px;
+}
+
+
+#header_background {
+  background-image: url("../images/design2_image1.jpg");
+  margin: 0;
+  margin-top: 60px;
+  border: 0;
+  padding: 0;
+}
+
+h1{
+
+  color: #4682B4;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+h2{
+  height: 30px;
+  color:  #4682B4;
+  text-align: center;
+  margin: 0;
+  border: 0;
+  border-style: solid;
+  border-width: medium;
+  padding: 0;
+}
+
+nav {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+ul {
+  list-style-type: none; /*removes bullets*/
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float:left;
+  display: inline-block;
+}
+
+li a {
+  color:  black;
+  background-color: #4682B4;
+  padding: 2px 4px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+li a:hover {
+  background-color: #2E8B57;
+}
+
+.active {
+  background-color: #2E8B57;
+}
+
+section {
+  width: 80%;
+  float: right; 
+}
+
+.indent { 
+   text-indent: 20px;
+   font-style: italic;
+}
+
+#logo {
+  position: absolute;
+  top: 250px;
+  left: 35px;
+  width: 10%;
+  height: 10%;*/
+}
